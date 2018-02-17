@@ -12,8 +12,8 @@
 		181E0B421F2F542C007B9423 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181E0B401F2F542C007B9423 /* Main.storyboard */; };
 		181E0B441F2F542C007B9423 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181E0B431F2F542C007B9423 /* Assets.xcassets */; };
 		181E0B471F2F542C007B9423 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181E0B451F2F542C007B9423 /* LaunchScreen.storyboard */; };
+		1863BC2C203849810031ECDB /* FlightTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1863BC2B203849810031ECDB /* FlightTableViewController.swift */; };
 		18BE36B61FFC8DD000842598 /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BE36B51FFC8DD000842598 /* Flight.swift */; };
-		18D867781FD991E400814511 /* FlightLogTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D867771FD991E400814511 /* FlightLogTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +24,8 @@
 		181E0B431F2F542C007B9423 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		181E0B461F2F542C007B9423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		181E0B481F2F542C007B9423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1863BC2B203849810031ECDB /* FlightTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightTableViewController.swift; sourceTree = "<group>"; };
 		18BE36B51FFC8DD000842598 /* Flight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flight.swift; sourceTree = "<group>"; };
-		18D867771FD991E400814511 /* FlightLogTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightLogTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +58,40 @@
 		181E0B3B1F2F542C007B9423 /* Date Picker 3 */ = {
 			isa = PBXGroup;
 			children = (
+				18BE87AE2030494600D0129D /* Model */,
+				18BE87AD2030492800D0129D /* Views */,
+				18BE87AC2030491700D0129D /* Controllers */,
 				181E0B3C1F2F542C007B9423 /* AppDelegate.swift */,
 				181E0B3E1F2F542C007B9423 /* ViewController.swift */,
 				18BE36B51FFC8DD000842598 /* Flight.swift */,
 				181E0B401F2F542C007B9423 /* Main.storyboard */,
-				18D867771FD991E400814511 /* FlightLogTableViewController.swift */,
 				181E0B431F2F542C007B9423 /* Assets.xcassets */,
 				181E0B451F2F542C007B9423 /* LaunchScreen.storyboard */,
 				181E0B481F2F542C007B9423 /* Info.plist */,
 			);
 			path = "Date Picker 3";
+			sourceTree = "<group>";
+		};
+		18BE87AC2030491700D0129D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1863BC2B203849810031ECDB /* FlightTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		18BE87AD2030492800D0129D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18BE87AE2030494600D0129D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,10 +168,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18D867781FD991E400814511 /* FlightLogTableViewController.swift in Sources */,
 				18BE36B61FFC8DD000842598 /* Flight.swift in Sources */,
 				181E0B3F1F2F542C007B9423 /* ViewController.swift in Sources */,
 				181E0B3D1F2F542C007B9423 /* AppDelegate.swift in Sources */,
+				1863BC2C203849810031ECDB /* FlightTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
